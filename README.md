@@ -29,6 +29,10 @@ application freezing is required.
 
 ## 📦 Installation
 
+[Click here to download as an exe file](https://github.com/AFEGaming/Smiley-Freeze/releases/download/Relase/Process_Thread_Suspension.exe)
+
+### OR
+
 Install dependencies:
 
 ```bash
@@ -40,6 +44,12 @@ Clone the repository:
 ```bash
 git clone https://github.com/USERNAME/smiley-freeze.git
 cd smiley-freeze
+```
+
+Build the file
+
+```bash
+pyinstaller --onefile --noconsole Process_Thread_Suspension.py
 ```
 
 ---
@@ -73,6 +83,10 @@ You can configure:
 * Thread-based suspension targets (advanced)
 
 ⚠ Thread mode is intended for **advanced users only**.
+
+If you still want to use it, this program will be help a lot.
+https://learn.microsoft.com/en-us/sysinternals/downloads/process-explorer
+
 Incorrect thread suspension may cause application instability.
 
 ---
