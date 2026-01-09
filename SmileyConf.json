@@ -1,0 +1,15 @@
+{
+    "whitelist_enabled": false,
+    "whitelist_exe": [
+        "RobloxPlayerBeta.exe",
+        "javaw.exe"
+    ],
+    "scan_enabled": true,
+    "scan_interval": 5,
+    "toggle_mode": true,
+    "timeout_enabled": false,
+    "timeout_seconds": 5.0,
+    "whitelist": [],
+    "auto_resume_enabled": false,
+    "auto_resume_seconds": 5.0
+}
